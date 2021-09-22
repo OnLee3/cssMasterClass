@@ -1,14 +1,12 @@
-.box {
-  background-color: blue;
-  width: 300px;
-  height: 300px;
-  display: inline-block;
-  color: white;
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 100vh;
 }
 
-.box:nth-child(2) {
-  margin-left: 80px;
-}
-.box:nth-child(3) {
-  margin-left: 80px;
+.box {
+  width: 200px;
+  background-color: peru;
+  color: white;
 }
